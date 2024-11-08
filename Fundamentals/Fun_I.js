@@ -74,8 +74,9 @@ if (height) {
 }
 
 */
-//### Equality Operators
-/* */
+
+// Equality Operators
+/* 
 const age = 20;
 if (age === 20) console.log("You are an adult!");
 else console.log("Fish");
@@ -85,3 +86,42 @@ const favoriteNumber = prompt('What is your favourite number?')
 if (favoriteNumber == 23) {
     console.log('That is a very naughty number!');
 }
+*/
+
+// Switch Statement
+/*
+const day = prompt("What day do you wish to fly away?").toLowerCase();
+
+switch (day) {
+  case "monday":
+    console.log("Monday it is!");
+    break;
+  case "tuesday":
+    console.log("Tuesday it is!");
+    break;
+  case "wednesday":
+    console.log("Wednesday it is!");
+    break;
+  case "thursday":
+    console.log("Thursday it is!");
+    break;
+  case "friday":
+    console.log("Friday it is!");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("Saturday and sunday is same");
+  default:
+    console.log("Invalid Day");
+}
+*/
+
+// Conditional Operator
+/* 
+age = 20;
+
+age >= 18
+  ? console.log("You are an adult")
+  : console.log("You are a still a child")
+
+*/
