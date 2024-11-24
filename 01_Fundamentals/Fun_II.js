@@ -77,7 +77,7 @@ console.log(friends.includes("Eghosa"));
 */
 
 // Introduction to objects
-/* */
+/*
 const array_list = ["Eghosa", 20, "Microbiologist"];
 
 const detailsEghosa = {
@@ -87,6 +87,34 @@ const detailsEghosa = {
   course: "Microbiology",
   friends: ["Osaretin", "Xander", "Deborah", "Shalom"],
   hasDriversLicense: false,
+
+  friendsNum: function () {
+    return this.firstName;
+  },
 };
 
-console.log(detailsEghosa.firstName);
+// console.log(detailsEghosa.friendsNum());
+console.log(detailsEghosa.friendsNum());
+
+// The this keyword/variable is equal to the object calling it
+*/
+
+// Iteration: For Loop
+/* 
+const friends = ["Osaretin", "Xander", "Deborah", "Shalom"];
+for (let i = 0; i < friends.length; i++) {
+  console.log(friends[i]);
+}
+*/
+
+// Iteration: While Loop
+/* */
+// let rep = true;
+// let trigger_variable = 1;
+// while (rep) {
+//   console.log(trigger_variable);
+//   trigger_variable++;
+//   if (trigger_variable >= 11) {
+//     rep = false;
+//   }
+// }
