@@ -1,17 +1,3 @@
-import Alert from "./components/Alert";
-
-function App() {
-  return (
-    <>
-      <Alert />
-    </>
-  );
-}
-
-export default App;
-
-// Previous Code
-/* 
 import ListGroup from "./components/ListGroup";
 import { useState } from "react";
 
@@ -38,5 +24,3 @@ function App() {
 }
 
 export default App;
-
-*/
