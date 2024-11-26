@@ -1,29 +1,42 @@
-import { MouseEvent } from "react";
+import Alert from "./components/Alert";
 
 function App() {
-  const items = [
-    "Fish Mooney",
-    "Carmine Falcone",
-    "Carlile Maroni",
-    "Oswald Cobblepot",
-    "Jim Gordon",
-  ];
-
-  // Event Handler
-  const HandleClick = (event: MouseEvent) => console.log(event);
-
   return (
     <>
-      <h1>Lists</h1>
-      <ul>
-        {items.map((item) => (
-          <li key={item} onClick={HandleClick}>
-            {item}
-          </li>
-        ))}
-      </ul>
+      <Alert />
     </>
   );
 }
 
 export default App;
+
+// Previous Code
+/* 
+import ListGroup from "./components/ListGroup";
+import { useState } from "react";
+
+function App() {
+  const names = [
+    "Fish Mooney",
+    "Carmine Falcone",
+    "Sal Maroni",
+    "Oswald Cobblepot",
+    "Jim Gordon",
+  ];
+  const handleSelectItem = (item: String) => {
+    console.log(item);
+  };
+  return (
+    <>
+      <ListGroup
+        items={names}
+        heading="Gotham Favourites"
+        onSelectItem={handleSelectItem}
+      />
+    </>
+  );
+}
+
+export default App;
+
+*/

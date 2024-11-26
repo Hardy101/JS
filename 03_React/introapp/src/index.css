@@ -66,3 +66,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+li {
+  cursor: pointer;
+}
+.active {
+  color: #242424;
+  background-color: #ffffffde;
+}
